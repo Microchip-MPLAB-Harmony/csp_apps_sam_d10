@@ -45,5 +45,5 @@ Following table provides the LED name:
 
 | Board      | LED Name |
 | ---------- | ---------------- |
-| [SAM D10 Xplained Mini](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/ATSAMD10-XMINI) |SW0 |
+| [SAM D10 Xplained Mini](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/ATSAMD10-XMINI) |LED0 |
 |||
