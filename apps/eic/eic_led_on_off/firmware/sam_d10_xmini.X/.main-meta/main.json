@@ -1,0 +1,76 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.csp_apps_sam_d10_eic_led_on_off",
+		"version": "3.0.1",
+		"displayName": "EIC Interrupt Example for SAM D09/D10/D11 Family",
+		"projectName": "eic_led_on_off_sam_d10_xmini",
+		"shortDescription": "This example application demonstrates how to generate interrupt using the EIC on switch press and indicate it through an LED.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "SAMD10_DFP",
+			"semverRange": "^2.3.45"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.5.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "ATSAMD10D14AM",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "SAM D10 Xplained Mini"
+			],
+			[
+				"Harmony", "Peripherals", "EIC"
+			],
+			[
+				"Peripherals", "EIC"
+			]
+		],
+		"peripherals": [
+			"EIC"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"ATSAMD10D14AM",
+			"SAM D09/D10/D11 Family",
+			"EIC",
+			"Interrupts",
+			"Interrupt Controller",
+			"External Interrupt Controller"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
