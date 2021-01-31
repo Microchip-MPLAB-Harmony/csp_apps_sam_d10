@@ -1,6 +1,6 @@
 ---
 parent: Harmony 3 peripheral library application examples for SAM D10 family
-title: SERCOM USART interrupt 
+title: SERCOM USART interrupt
 has_children: false
 has_toc: false
 ---
@@ -46,7 +46,7 @@ The following table shows the target hardware for the application projects.
 
 1. Open the Terminal application (Ex.:Tera term) on the computer
 2. Connect to the EDBG Virtual COM port and configure the serial settings as follows:
-    - Baud : 115200
+    - Baud : 9600
     - Data : 8 Bits
     - Parity : None
     - Stop : 1 Bit
