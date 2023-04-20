@@ -116,6 +116,7 @@ static void GCLK1_Initialize( void )
     }
 }
 
+
 void CLOCK_Initialize( void )
 {
     /* Function to Initialize the Oscillators */

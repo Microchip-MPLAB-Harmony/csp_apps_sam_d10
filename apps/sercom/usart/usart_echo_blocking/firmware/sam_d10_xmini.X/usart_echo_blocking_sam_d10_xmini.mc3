@@ -1,4 +1,4 @@
-<config configName="sam_d10_xmini" projectName="usart_echo_blocking_sam_d10_xmini" configVersion="1.1" device="ATSAMD10D14AM" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
+<config configName="sam_d10_xmini" projectName="usart_echo_blocking_sam_d10_xmini" configVersion="1.1" device="ATSAMD10D14AM" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.0">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -27,7 +27,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.3.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1756,7 +1756,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\clock\plib_clock.c</file>
-         <hash>e1f143ed91f1a364ff31d1ef4c20e48756b83b959f2bf7e085668bb3602e8810</hash>
+         <hash>207b06c1f51b08f4562576b9057f513712246a439769c5698d0add8875ef0910</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\pm.h</file>
@@ -1784,7 +1784,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\nvic\plib_nvic.c</file>
-         <hash>094d62b85dd09844627faf5d29fa4c0c79cd346853d21b06104a0fd6534dd985</hash>
+         <hash>056a589ef1f8f3bbb9c37fd4685b97207b957116104636b2ead4e442cc135a46</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\device.h</file>
@@ -1808,7 +1808,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\nvmctrl\plib_nvmctrl.c</file>
-         <hash>6c9ddcb7ec64839add93ea8a9cd943432a114d11298e08c32f7e689d2329161a</hash>
+         <hash>bdcdd09324aabfee99d83053fce34298dc5705207e02afee581b952bf60ffe6e</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\tc.h</file>
@@ -1832,11 +1832,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\sercom\usart\plib_sercom0_usart.c</file>
-         <hash>11330151ce64ac0415a7b02c6f9e510f4491f1605c4459db8aa16b8b51b9b0a8</hash>
+         <hash>ac2bad4768a5f240e37176596a2dc5ad3deec12ec340ccf20e2df0905ab6f633</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\sercom\usart\plib_sercom0_usart.h</file>
-         <hash>b92d5b8f35de50940c3ba193bd69b79e06ea4ab1c72fc2f62227b176f087f1f5</hash>
+         <hash>da34e98c6c7b5164a88fa693139665742c8dc1bc56fcb0d76d7ef36b71eb4bac</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\wdt.h</file>
@@ -1872,7 +1872,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\startup_xc32.c</file>
-         <hash>d7ba451f4fffc267a5da6a83377b2b935a88cd73342f8a1f38ea8c39a86d963f</hash>
+         <hash>e6227d89e36b74af1bc21e00e80b390502c97aaaa65796291f63b2d96cf0678e</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\dac.h</file>
@@ -1904,7 +1904,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\initialization.c</file>
-         <hash>f49763ccde8e00300c4611921517f653828342771375648806ac1649ef732f76</hash>
+         <hash>0eb6cce6192c440c49a00e0e66da44a2137556e46903d3744a4e131a9bce657e</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\instance\pm.h</file>
@@ -1952,15 +1952,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\port\plib_port.c</file>
-         <hash>bd08da40afb7e3a190519cce304190787cd9e5b2dc7bec2f49ae22a5b84d3858</hash>
+         <hash>828bdedc708ce08591f99ce5058b9fc3534cf1f5b6c76ffc38575679ed4d8b1f</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
-         <hash>1dbf674e2bc9708afe2cacc75141707c42b89f166e0f1d6f81c04b1b2fa166b8</hash>
+         <hash>63c6e89936ba47e8989478a8be0fa40b406361f2f0dcc1b6cfcd801b50a4bf92</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\interrupts.c</file>
-         <hash>ad6e0d5c198e762c1e6e8e9372edef01f4fc8ce66cc2fb6737576275de590fcb</hash>
+         <hash>85427c3b84a6e767989c9442f2d161f52791815cf2430f95e1629b28d8c2c9ac</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\pin_configurations.csv</file>
@@ -1984,7 +1984,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\definitions.h</file>
-         <hash>c6815c2d3a4e41d0a2a19985e69b1b235288c99c33068de9e4a0a74d5f9b886c</hash>
+         <hash>600a27b6f4c5c67e2dca313fcfa2a306289a6ec160ed6ead5c552cf1aee45c26</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\interrupts.h</file>
@@ -1992,7 +1992,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\toolchain_specifics.h</file>
-         <hash>c93f9d68b1623668727be21b4449250a7e4a5d7040776d6f6d604a7528ffc9eb</hash>
+         <hash>a4f1774c6f1f8c6cd522567536c9e9d75ca63259b868015ac9b0fb0aeeffe1f4</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\peripheral\port\plib_port.h</file>
@@ -2008,7 +2008,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_d10_xmini\exceptions.c</file>
-         <hash>b850253aacaae1bddfcb426c2dc11e0688900afffe9b22c60d0ab16298701118</hash>
+         <hash>5efbe5a64a17c496d2f5b177bc9cd66a7f0f80323d9558e220c073a13570a2a7</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMD10D14AM_DFP\component\dsu.h</file>
