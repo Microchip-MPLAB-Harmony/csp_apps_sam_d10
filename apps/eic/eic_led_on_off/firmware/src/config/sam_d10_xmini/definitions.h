@@ -63,6 +63,12 @@ extern "C" {
 #endif
 // DOM-IGNORE-END
 
+/* Device Information */
+#define DEVICE_NAME			 "ATSAMD10D14AM"
+#define DEVICE_ARCH			 "CORTEX-M0PLUS"
+#define DEVICE_FAMILY		 "SAMD"
+#define DEVICE_SERIES		 "SAMD10"
+
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 48000000
 
