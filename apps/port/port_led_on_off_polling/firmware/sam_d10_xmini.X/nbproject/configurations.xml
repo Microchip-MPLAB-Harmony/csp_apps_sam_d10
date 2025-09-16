@@ -110,9 +110,18 @@
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="port_led_on_off_polling_sam_d10_xmini_sam_d10_xmini" displayName="port_led_on_off_polling_sam_d10_xmini_sam_d10_xmini" projectFiles="true">
+        <itemPath>port_led_on_off_polling_sam_d10_xmini_sam_d10_xmini/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>port_led_on_off_polling_sam_d10_xmini_sam_d10_xmini/components/cmsis.yml</itemPath>
+          <itemPath>port_led_on_off_polling_sam_d10_xmini_sam_d10_xmini/components/core.yml</itemPath>
+          <itemPath>port_led_on_off_polling_sam_d10_xmini_sam_d10_xmini/components/dfp.yml</itemPath>
+          <itemPath>port_led_on_off_polling_sam_d10_xmini_sam_d10_xmini/components/evsys.yml</itemPath>
+          <itemPath>port_led_on_off_polling_sam_d10_xmini_sam_d10_xmini/components/nvmctrl.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_d10_xmini/harmony-manifest-success.yml</itemPath>
-      <itemPath>port_led_on_off_polling_sam_d10_xmini.mc3</itemPath>
       <itemPath>../src/config/sam_d10_xmini/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
@@ -168,7 +177,7 @@
         <targetPluginBoard/>
         <platformTool>mEdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
